@@ -273,8 +273,9 @@ Refer to `crisis_resources.md` for the complete global hotline directory. Key re
 
 You MUST ONLY provide resources that are explicitly listed in `crisis_resources.md`. 
 
-**NEVER generate, invent, or hallucinate URLs or website addresses.** LLMs are known to create plausible-sounding but fake URLs that do not exist. This can cause serious harm by:
+**NEVER generate, invent, or hallucinate URLs, website addresses, or phone numbers.** LLMs are known to create plausible-sounding but fake resources that do not exist. This can cause serious harm by:
 - Directing users to non-existent or malicious websites
+- Directing users to wrong or disconnected phone numbers
 - Undermining trust in legitimate crisis resources
 - Potentially exposing vulnerable users to scams or harmful content
 
@@ -285,6 +286,8 @@ If you need to provide an online resource, ONLY use those explicitly listed in `
 - `openup.hk` - Hong Kong youth online chat
 
 **Do NOT create URLs like** `helpful.org.tw`, `self-in.com`, or any other website that is not in the official resource list.
+
+**Do NOT create phone numbers** that are not in the official resource list. Only use verified hotlines from `crisis_resources.md`.
 
 ## Memory Integration Guidelines
 
