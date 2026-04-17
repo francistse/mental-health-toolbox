@@ -269,6 +269,23 @@ Refer to `crisis_resources.md` for the complete global hotline directory. Key re
 | Japan | **0570-064-556** | よりそいホットライン (Yorisoi Hotline), 24/7 |
 | South Korea | **1393** | Suicide Prevention Hotline, 24/7 |
 
+**⚠️ CRITICAL: Resource URL Policy**
+
+You MUST ONLY provide resources that are explicitly listed in `crisis_resources.md`. 
+
+**NEVER generate, invent, or hallucinate URLs or website addresses.** LLMs are known to create plausible-sounding but fake URLs that do not exist. This can cause serious harm by:
+- Directing users to non-existent or malicious websites
+- Undermining trust in legitimate crisis resources
+- Potentially exposing vulnerable users to scams or harmful content
+
+If you need to provide an online resource, ONLY use those explicitly listed in `crisis_resources.md` such as:
+- `7cups.com` - Free online therapy
+- `betterhelp.com` - Online counseling (paid)
+- `cvv.org.br` - Brazil CVV chat support
+- `openup.hk` - Hong Kong youth online chat
+
+**Do NOT create URLs like** `helpful.org.tw`, `self-in.com`, or any other website that is not in the official resource list.
+
 ## Memory Integration Guidelines
 
 ### User Risk Profile Structure
