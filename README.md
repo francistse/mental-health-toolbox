@@ -41,14 +41,21 @@ cp -r skills/praise-group /path/to/your/agent/skills/praise-group
 ### With Hermes Agent
 
 ```bash
-# Install skills
-mkdir -p ~/.hermes/skills/crisis-detection
-cp skills/crisis-detection/SKILL.md ~/.hermes/skills/crisis-detection/SKILL.md
+# Install Crisis Detection (all files)
+cp -r skills/crisis-detection ~/.hermes/skills/crisis-detection
 
-mkdir -p ~/.hermes/skills/praise-group
-cp skills/praise-group/SKILL.md ~/.hermes/skills/praise-group/SKILL.md
+# Install Praise Group (all files)
+cp -r skills/praise-group ~/.hermes/skills/praise-group
 
+# Restart Hermes to load the skills
 hermes gateway restart
+```
+
+Or install from GitHub directly:
+
+```bash
+hermes skills install francistse/mental-health-toolbox/crisis-detection
+hermes skills install francistse/mental-health-toolbox/praise-group
 ```
 
 ### Usage
@@ -159,14 +166,16 @@ Output: 挑戦し続けるあなたの姿勢、本当に素敵です！失敗は
 mental-health-toolbox/
 ├── skills/
 │   ├── crisis-detection/
-│   │   ├── manifest.json          # Skill metadata and changelog
 │   │   ├── SKILL.md               # Skill instructions and detection rules
 │   │   ├── risk_assessment.md     # 5-tier risk assessment framework
-│   │   └── crisis_resources.md    # Global crisis hotline directory
+│   │   ├── crisis_resources.md    # Global crisis hotline directory
+│   │   └── manifest.json          # Skill metadata and changelog
 │   └── praise-group/
-│       ├── manifest.json          # Skill metadata and changelog
 │       ├── SKILL.md               # Skill instructions and transformation rules
-│       └── crisis_resources.md    # Global crisis hotline directory
+│       ├── praise_handler.md      # CBT reframing engine and detailed rules
+│       ├── crisis_resources.md    # Global crisis hotline directory
+│       └── manifest.json          # Skill metadata and changelog
+├── DISCLAIMER.md                  # Full disclaimer and limitations
 ├── README.md                      # This file (English)
 ├── README_TC.md                   # Traditional Chinese version
 ├── README_CN.md                   # Simplified Chinese version
