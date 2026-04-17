@@ -164,21 +164,7 @@ Refer to `risk_assessment.md` for the complete assessment framework.
 9. **CEISS Competency - Emotional Intelligence**: Help users understand and regulate their emotions
 10. **CEISS Competency - Empathy**: Create genuine connection; avoid over-focusing on emotions during crisis
 
-## Structured Assessment Output
-
-At the END of every assessment response, you MUST include a structured summary block. This is required for validation and monitoring purposes.
-
-**Format:**
-```
----ASSESSMENT---
-Risk Level: [normal|low|moderate|high|critical]
-Score: [0-100]
-Detected Tiers: [comma-separated tier numbers, e.g., 2,3,4]
-Confidence: [0.0-1.0]
----END ASSESSMENT---
-```
-
-**Risk Level Calibration Rules** (follow these thresholds strictly):
+## Risk Level Calibration Rules
 
 | Risk Level | Required Criteria | Score Range |
 |-----------|------------------|-------------|
