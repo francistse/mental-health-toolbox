@@ -1,0 +1,37 @@
+{
+  "name": "crisis-detection",
+  "version": "2.0.0",
+  "description": "Mental health crisis detection with graduated intervention protocols",
+  "changelog": {
+    "2.0.0": {
+      "date": "2026-04-17",
+      "changes": [
+        "Added CEISS research-backed intervention competencies (resilience, emotional intelligence, empathy)",
+        "Added AI social media study digital markers (pronoun shifts, linguistic diversity, absolutist words)",
+        "Added temporal/sentiment analysis (Tier 5) — gradual decline more predictive than snapshots",
+        "Added CBT cognitive distortion awareness for moderate-risk responses",
+        "Added error awareness section (false positive/negative sources from research)",
+        "Enhanced high-risk detection with research-backed linguistic patterns",
+        "Integrated CEISS principle: focus on emotional recovery, not just acknowledgment",
+        "Added 5th response requirement incorporating all three CEISS competencies",
+        "Added digital phenotyping behavioral crisis indicators (Lin et al., 2025)",
+        "Enhanced Tier 4 with sleep disruption, meal patterns, social withdrawal, academic failure indicators",
+        "Added behavioral sub-tiers: sleep/health (4.2), social withdrawal (4.3), academic performance (4.4)",
+        "Key finding integration: sleep disruption is strongest predictor (importance 14.01)"
+      ]
+    },
+    "1.0.0": {
+      "date": "2026-04-10",
+      "changes": [
+        "Initial release with 4-tier detection framework",
+        "Multi-language crisis indicators (English, Traditional Chinese, Mandarin, Japanese, Korean)",
+        "Risk assessment scoring matrix",
+        "Memory integration for longitudinal tracking"
+      ]
+    }
+  },
+  "dependencies": [
+    "risk_assessment.md",
+    "crisis_resources.md"
+  ]
+}

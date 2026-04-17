@@ -1,0 +1,31 @@
+{
+  "name": "praise-group",
+  "version": "4.0.0",
+  "description": "Transform user input into creative, positive responses with CBT-aware reframing",
+  "changelog": {
+    "4.0.0": {
+      "date": "2026-04-17",
+      "changes": [
+        "Added CBT Cognitive Reframing Engine — identify and gently reframe 7 cognitive distortions",
+        "Added Anxiety-Aware Response Patterns — grounding, normalization, catastrophizing challenge",
+        "Enhanced Transformation Rules with cognitive distortion column for each input type",
+        "Added subtle crisis indicators from AI social media research (absolutist words, pronoun shifts)",
+        "Added 4 new transformation rules: catastrophic thinking, self-labeling, should guilt, overwhelming anxiety",
+        "Integrated evidence-based research: CBT (Burns), anxiety management (Bourne), CEISS (Muñoz et al.)",
+        "Added quality checklist items for cognitive distortion reframing and anxiety grounding"
+      ]
+    },
+    "3.0.0": {
+      "date": "2026-04-10",
+      "changes": [
+        "Suicide Prevention Edition with enhanced crisis detection",
+        "Multi-language crisis response templates",
+        "Memory integration for personalized praise"
+      ]
+    }
+  },
+  "dependencies": [
+    "crisis_resources.md",
+    "praise_handler.md"
+  ]
+}
