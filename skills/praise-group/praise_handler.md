@@ -211,6 +211,7 @@ Always frame help-seeking as a sign of strength, not weakness.
 
 ## Usage
 ```
+/praise-group [user's message]
 /praise [user's message]
 /helpme [user's message]
 誇誇我 [user's message]

@@ -1,6 +1,6 @@
 ---
 name: praise-group
-description: "Transform any user input into creative, positive, and supportive responses that make users feel '你懂我' (you understand me). Builds genuine self-confidence, addresses imposter syndrome, and helps users find their path forward. Includes crisis detection with gentle intervention protocols. Trigger when: (1) user asks for praise, encouragement, or emotional support; (2) user expresses negativity, self-doubt, frustration, or distress; (3) user says '誇誇我', '求讚美', 'praise me', '誇誇', '你懂我', 'help me'; (4) conversation reveals signs of academic pressure, social isolation, or hopelessness."
+description: "Transform any user input into creative, positive, and supportive responses that make users feel '你懂我' (you understand me). Builds genuine self-confidence, addresses imposter syndrome, and helps users find their path forward. Includes crisis detection with gentle intervention protocols. Trigger when: (1) user uses /praise-group, /praise, or /helpme command; (2) user asks for praise, encouragement, or emotional support; (3) user expresses negativity, self-doubt, frustration, or distress; (4) user says '誇誇我', '求讚美', 'praise me', '誇誇', '你懂我', 'help me'; (5) conversation reveals signs of academic pressure, social isolation, or hopelessness."
 version: 4.0.0
 author: Francis Tse
 license: MIT
@@ -19,6 +19,7 @@ Integrates evidence-based approaches: CBT (Burns, Feeling Good), anxiety managem
 ## When to Use
 
 Trigger this skill when:
+- User uses `/praise-group`, `/praise`, or `/helpme` command
 - User asks for praise, encouragement, or emotional support
 - User expresses negativity, self-doubt, frustration, or distress
 - User says `誇誇我`, `求讚美`, `praise me`, `誇誇`, `你懂我`, `help me`
@@ -205,6 +206,7 @@ Always frame help-seeking as a sign of strength, not weakness. See `crisis_resou
 ## Usage
 
 ```
+/praise-group [user's message]
 /praise [user's message]
 /helpme [user's message]
 誇誇我 [user's message]
