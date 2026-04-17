@@ -227,7 +227,6 @@ The Crisis Detection skill has been validated through comprehensive end-to-end t
 ## Requirements
 
 - AI agent with Markdown skill support (Hermes Agent, OpenClaw, etc.)
-- For Hermes Agent: Hermes Agent v1.0+
 - Git (for version control)
 
 ## Contributing

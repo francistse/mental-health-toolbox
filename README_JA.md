@@ -241,7 +241,6 @@ mental-health-toolbox/
 ## 動作環境
 
 - Markdownスキル対応AIエージェント（Hermes Agent、OpenClaw など）
-- Hermes Agent：v1.0以上が必要
 - Git（バージョン管理用）
 
 ## 貢献

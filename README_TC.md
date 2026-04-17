@@ -240,7 +240,6 @@ mental-health-toolbox/
 ## 前置要求
 
 - 支援 Markdown 技能的 AI Agent（Hermes Agent、OpenClaw 等）
-- Hermes Agent：需要 v1.0+
 - Git（用於版本控制）
 
 ## 貢獻
