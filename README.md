@@ -183,6 +183,12 @@ mental-health-toolbox/
 └── LICENSE
 ```
 
+## Community Contributors
+
+This project benefits from community contributions that improve its cultural competence and safety:
+
+- **u/Forsaken-Kale-3175** ([Reddit](https://www.reddit.com/user/Forsaken-Kale-3175/)) — Identified the critical distinction between cognitive distortions and valid external hardship in CBT reframing, preventing the skill from being dismissive of genuine systemic barriers, discrimination, and real obstacles. Also highlighted the gap in Southeast Asian cultural contexts (Vietnamese, Thai) for crisis detection.
+
 ## Research Foundation
 
 This toolbox is built on peer-reviewed research and evidence-based frameworks:
@@ -203,33 +209,33 @@ The Crisis Detection skill has been validated through comprehensive end-to-end t
 
 ### Test Dataset
 
-| Attribute | Value |
-|-----------|-------|
-| **Source** | Student Psychological Crisis Dataset |
-| **Total Test Cases** | 93 |
-| **Languages** | English, Traditional Chinese, Simplified Chinese |
+| Attribute                   | Value                                                     |
+| --------------------------- | --------------------------------------------------------- |
+| **Source**                  | Student Psychological Crisis Dataset                      |
+| **Total Test Cases**        | 93                                                        |
+| **Languages**               | English, Traditional Chinese, Simplified Chinese          |
 | **Risk Level Distribution** | Critical: 17, High: 18, Moderate: 21, Low: 18, Normal: 19 |
 
 ### E2E Test Results (April 2026)
 
-| Metric | Value | Target | Status |
-|--------|-------|--------|--------|
-| **Overall Accuracy** | 96.8% | - | - |
-| **Critical Case Recall** | 100.0% | ≥95% | ✅ PASS |
-| **High-Risk Recall** | 94.4% | ≥90% | ✅ PASS |
-| **Moderate-Risk Recall** | 95.2% | ≥85% | ✅ PASS |
-| **False Positive Rate** | 0.0% | ≤10% | ✅ PASS |
-| **False Negative Rate** | 0.0% | ≤15% | ✅ PASS |
+| Metric                   | Value  | Target | Status |
+| ------------------------ | ------ | ------ | ------ |
+| **Overall Accuracy**     | 96.8%  | -      | -      |
+| **Critical Case Recall** | 100.0% | ≥95%   | ✅ PASS |
+| **High-Risk Recall**     | 94.4%  | ≥90%   | ✅ PASS |
+| **Moderate-Risk Recall** | 95.2%  | ≥85%   | ✅ PASS |
+| **False Positive Rate**  | 0.0%   | ≤10%   | ✅ PASS |
+| **False Negative Rate**  | 0.0%   | ≤15%   | ✅ PASS |
 
 ### Per-Class Performance
 
 | Risk Level | Precision | Recall | F1 Score | Support |
-|------------|-----------|--------|----------|---------|
-| Critical | 85.0% | 100.0% | 91.9% | 17 |
-| High | 68.2% | 83.3% | 75.0% | 18 |
-| Moderate | 45.2% | 66.7% | 53.8% | 21 |
-| Low | 0.0% | 0.0% | 0.0% | 18 |
-| Normal | 95.0% | 100.0% | 97.4% | 19 |
+| ---------- | --------- | ------ | -------- | ------- |
+| Critical   | 85.0%     | 100.0% | 91.9%    | 17      |
+| High       | 68.2%     | 83.3%  | 75.0%    | 18      |
+| Moderate   | 45.2%     | 66.7%  | 53.8%    | 21      |
+| Low        | 0.0%      | 0.0%   | 0.0%     | 18      |
+| Normal     | 95.0%     | 100.0% | 97.4%    | 19      |
 
 **Key Finding**: The skill achieves 100% recall on critical cases with zero false negatives, ensuring no crisis cases are missed. The conservative "low" classification (often classified as moderate) is intentional to prioritize safety.
 
@@ -286,9 +292,10 @@ This project is built on the foundational work of researchers and practitioners 
 
 **IMPORTANT: This toolbox provides AI-powered support, NOT professional counseling.**
 
-This tool is designed to supplement, not replace, professional mental health services. The automated detection and response systems may produce incorrect assessments, inappropriate responses, or miss genuine crises. 
+This tool is designed to supplement, not replace, professional mental health services. The automated detection and response systems may produce incorrect assessments, inappropriate responses, or miss genuine crises.
 
-**See [DISCLAIMER.md](DISCLAIMER.md) for full details on:**
+**See** **[DISCLAIMER.md](DISCLAIMER.md)** **for full details on:**
+
 - Limitations and risks of automated mental health support
 - Technical risks and potential malfunctions
 - User and developer responsibilities

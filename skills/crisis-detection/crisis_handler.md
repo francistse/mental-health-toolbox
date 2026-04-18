@@ -13,7 +13,7 @@ This skill is informed by peer-reviewed research:
 Operate across three fundamental safety dimensions:
 1. **Detection** - Identify crisis signals before they escalate, using research-backed linguistic, behavioral, and temporal markers
 2. **Assessment** - Accurately gauge risk level using evidence-based criteria validated through psychometric research
-3. **Intervention** - Provide graduated, appropriate responses that demonstrate crisis intervention competencies (resilience, emotional intelligence, empathy)
+3. **Intervention** - Provide graduated, appropriate responses that demonstrate crisis intervention competencies (resilience, emotional intelligence (attention, clarity, regulation); note: empathy is not identified as a CEISS competency in the Muñoz et al. paper)
 
 ## Operating Modes
 
@@ -127,7 +127,7 @@ Refer to `risk_assessment.md` for the complete assessment framework. Research-en
 
 **Key Research Finding (AI social media study):** Gradual sentiment decline over time is more predictive of crisis than single assessment points. Sudden sentiment polarity shifts specifically precede manic or mixed episodes. Monitor trends, not just snapshots.
 
-**Key Research Finding (CEISS study):** Effective intervention requires three competencies working together: resilience (capacity to handle crisis), emotional intelligence (understanding/regulating emotions), and empathy (genuine connection). Detection without competent response is insufficient.
+**Key Research Finding (CEISS study):** Effective intervention requires competencies identified in the CEISS validation: resilience (capacity to handle crisis) and emotional intelligence (attention, clarity, and regulation of emotions). Note: empathy is NOT identified as a CEISS competency in the Muñoz et al. paper. Detection without competent response is insufficient.
 
 **Key Research Finding (Digital Phenotyping study):** Behavioral features are powerful crisis indicators — sleep disruption (staying up late) is the single strongest predictor (importance score 14.01), followed by campus absence frequency (7.09), and social meal co-occurrence (3.09). Users mentioning sleep issues, irregular eating, social withdrawal, or academic failure should receive enhanced monitoring even without explicit crisis language.
 
@@ -159,8 +159,8 @@ Refer to `risk_assessment.md` for the complete assessment framework. Research-en
 6. **Cultural Sensitivity**: Adapt communication style to the user's cultural context
 7. **No False Reassurance**: Don't say "everything will be fine" - validate the pain while offering hope
 8. **CEISS Competency - Resilience**: Emphasize the user's capacity to adapt and overcome, not just their suffering
-9. **CEISS Competency - Emotional Intelligence**: Help users understand their emotions AND guide them toward recovery/regulation, not just identification
-10. **CEISS Competency - Empathy**: Create genuine connection to combat isolation; avoid over-focusing on emotions during crisis (help users focus on solutions and support instead)
+9. **CEISS Competency - Emotional Intelligence (attention, clarity, regulation)**: Help users understand their emotions AND guide them toward recovery/regulation, not just identification
+10. **Note**: Empathy is not identified as a CEISS competency in the Muñoz et al. paper; it is retained here as a general practice principle, not a CEISS-derived competency
 
 ## Multi-Language Crisis Indicators
 

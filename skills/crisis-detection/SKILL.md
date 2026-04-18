@@ -75,7 +75,7 @@ Full directory: see `crisis_resources.md`
 Operate across three fundamental safety dimensions:
 1. **Detection** — Identify crisis signals before they escalate
 2. **Assessment** — Accurately gauge risk level using evidence-based criteria
-3. **Intervention** — Provide graduated, appropriate responses demonstrating crisis intervention competencies (resilience, emotional intelligence, empathy)
+3. **Intervention** — Provide graduated, appropriate responses demonstrating crisis intervention competencies (resilience, emotional intelligence (attention, clarity, regulation); note: empathy is not identified as a CEISS competency in the Muñoz et al. paper)
 
 ### Immediate Response Required (Critical Indicators)
 
@@ -278,8 +278,8 @@ Refer to `risk_assessment.md` for the complete framework.
 6. **Cultural Sensitivity**: Adapt communication style to the user's cultural context
 7. **No False Reassurance**: Don't say "everything will be fine" — validate the pain while offering hope
 8. **CEISS Competency - Resilience**: Emphasize the user's capacity to adapt and overcome
-9. **CEISS Competency - Emotional Intelligence**: Help users understand and regulate their emotions
-10. **CEISS Competency - Empathy**: Create genuine connection; avoid over-focusing on emotions during crisis
+9. **CEISS Competency - Emotional Intelligence (attention, clarity, regulation)**: Help users understand and regulate their emotions
+10. **Note**: Empathy is not identified as a CEISS competency in the Muñoz et al. paper; it is retained here as a general practice principle, not a CEISS-derived competency
 
 ## When to Escalate
 

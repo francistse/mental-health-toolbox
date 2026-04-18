@@ -5,7 +5,7 @@
 ## Overview
 
 This framework provides a structured, evidence-based approach to assessing mental health crisis risk in conversational AI interactions. It integrates validated findings from:
-- CEISS psychometric validation study (9-item scale, McDonald's ω = 0.90)
+- CEISS psychometric validation study (9-item scale, McDonald's ω = 0.90) (pending verification from full paper)
 - AI social media crisis detection study (89.3% accuracy, 7.2-day lead time)
 - Cognitive Behavioral Therapy cognitive distortion framework
 - Anxiety management research (Bourne, Anxiety and Phobia Workbook)
@@ -311,8 +311,8 @@ When risk assessment indicates High or Critical levels, reference `crisis_resour
 
 ## References
 
-1. Muñoz, M., et al. "Development of the Crisis and Emergency Intervention Skills Scale (CEISS) and an analysis of its psychometric properties." Nature Scientific Reports, s41598-025-86992-y, 2025. (Validated 9-item scale, McDonald's ω = 0.90, correlations with resilience and emotional intelligence)
-2. Mansoor, M.A., Ansari, K.H. "Early Detection of Mental Health Crises through Artificial-Intelligence-Powered Social Media Analysis: A Prospective Observational Study." PMC11433454, 2026. (89.3% accuracy, 7.2-day lead time, 996,452 posts, 4 languages, 3 platforms)
+1. Muñoz, M., et al. "Development of the Crisis and Emergency Intervention Skills Scale (CEISS) and an analysis of its psychometric properties." Nature Scientific Reports, s41598-025-86992-y, 2025. (9-item scale and McDonald's ω = 0.90 pending verification from full paper; correlations with resilience and emotional intelligence (attention, clarity, regulation); note: empathy is not identified as a CEISS competency in this paper)
+2. Mansoor, M.A., Ansari, K.H. "Early Detection of Mental Health Crises through Artificial-Intelligence-Powered Social Media Analysis: A Prospective Observational Study." PMC11433454, 2024. (89.3% accuracy, 7.2-day lead time, 996,452 posts, 4 languages, 3 platforms)
 3. Burns, D.D. "Feeling Good: The New Mood Therapy." Cognitive Behavioral Therapy framework for cognitive distortion identification.
 4. Bourne, E.J. "The Anxiety and Phobia Workbook." Evidence-based anxiety management techniques.
 5. Hospital Authority, Hong Kong. "Service Framework for Adults with Severe Mental Illness." Care pathways and multidisciplinary team approaches.
